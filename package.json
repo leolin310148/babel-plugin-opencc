@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-opencc",
+  "version": "0.0.2",
+  "main": "index.js",
+  "description": "transform string using opencc in babel",
+  "author": "leolin310148",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leolin310148/babel-plugin-opencc"
+  },
+  "keywords": [
+    "babel",
+    "opencc"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "jest": "^24.5.0",
+    "node-opencc": "^2.0.1"
+  }
+}
