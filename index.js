@@ -4,7 +4,10 @@ module.exports = () => {
     visitor: {
       StringLiteral(path, { opts }) {
         const translation = opts.translation || 'traditionalToSimplified';
-        path.node.value = opencc[translation](path.node.value);
+        const match = path.node.value.match(/[\u4e00-\u9fa5]/g);
+        if (match) {
+          path.node.value = opencc[translation](path.node.value);
+        }
       }
     }
   };

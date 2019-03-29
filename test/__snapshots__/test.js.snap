@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should replace 1`] = `
+"console.log(\\"\\\\u6B63\\\\u5247\\\\u8868\\\\u9054\\\\u5F0F\\");
+const hello = \\"hello\\";
+
+const myFunc = function (param = \\"\\\\u5224\\\\u65B7\\\\u8F38\\\\u5165\\") {
+  return \\"\\\\u6F22\\\\u5B57\\";
+};"
+`;
